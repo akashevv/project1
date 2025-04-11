@@ -1,0 +1,112 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 15px;
+}
+
+
+header {
+    background-color: #cc0000;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+
+body {
+    padding-top: 120px;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.about {
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+}
+
+
+img {
+    float: left;
+    border: 3px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 300px;
+    height: auto;
+}
+
+
+.about p {
+    flex: 1;
+    
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    font-size: 1.1em;
+    color: #222;
+}
+
+
+ul li:hover {
+    color: #cc0000;
+    
+}
+
+
+a[target="_blank"] {
+    color: green;
+    text-decoration: underline;
+}
+
+
+h2::before {
+    content: "✈️ ";
+}
+
+h3::after {
+    content: " 🔍";
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
